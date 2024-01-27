@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include figo_care *.css
+recursive-include figo_care *.csv
+recursive-include figo_care *.html
+recursive-include figo_care *.ico
+recursive-include figo_care *.js
+recursive-include figo_care *.json
+recursive-include figo_care *.md
+recursive-include figo_care *.png
+recursive-include figo_care *.py
+recursive-include figo_care *.svg
+recursive-include figo_care *.txt
+recursive-exclude figo_care *.pyc
